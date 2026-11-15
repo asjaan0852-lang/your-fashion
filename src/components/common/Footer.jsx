@@ -199,63 +199,7 @@ export const Footer = () => {
             </div>
           </div>
 
-          {/* Column 2: Collections / Categories */}
-          <div>
-            <h4 style={{
-              fontFamily: 'var(--font-serif)',
-              fontSize: '1rem',
-              color: 'var(--gold-primary)',
-              textTransform: 'uppercase',
-              letterSpacing: '0.08em',
-              marginBottom: '1.25rem'
-            }}>
-              Curated Collections
-            </h4>
-            <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.65rem', fontSize: '0.88rem' }}>
-              <li>
-                <Link to="/shop?category=shirts" style={{ color: 'var(--text-secondary)', transition: 'color var(--transition-fast)' }}
-                  onMouseEnter={(e) => (e.currentTarget.style.color = 'var(--gold-primary)')}
-                  onMouseLeave={(e) => (e.currentTarget.style.color = 'var(--text-secondary)')}
-                >
-                  Pure Linen & Cotton Shirts
-                </Link>
-              </li>
-              <li>
-                <Link to="/shop?category=t-shirts" style={{ color: 'var(--text-secondary)', transition: 'color var(--transition-fast)' }}
-                  onMouseEnter={(e) => (e.currentTarget.style.color = 'var(--gold-primary)')}
-                  onMouseLeave={(e) => (e.currentTarget.style.color = 'var(--text-secondary)')}
-                >
-                  Supima Polos & Heavyweight Tees
-                </Link>
-              </li>
-              <li>
-                <Link to="/shop?category=trousers" style={{ color: 'var(--text-secondary)', transition: 'color var(--transition-fast)' }}
-                  onMouseEnter={(e) => (e.currentTarget.style.color = 'var(--gold-primary)')}
-                  onMouseLeave={(e) => (e.currentTarget.style.color = 'var(--text-secondary)')}
-                >
-                  Wide-Leg Denim & Gurkha Trousers
-                </Link>
-              </li>
-              <li>
-                <Link to="/shop?category=jackets" style={{ color: 'var(--text-secondary)', transition: 'color var(--transition-fast)' }}
-                  onMouseEnter={(e) => (e.currentTarget.style.color = 'var(--gold-primary)')}
-                  onMouseLeave={(e) => (e.currentTarget.style.color = 'var(--text-secondary)')}
-                >
-                  Tailored Blazers & Trucker Jackets
-                </Link>
-              </li>
-              <li>
-                <Link to="/shop?category=knitwear" style={{ color: 'var(--text-secondary)', transition: 'color var(--transition-fast)' }}
-                  onMouseEnter={(e) => (e.currentTarget.style.color = 'var(--gold-primary)')}
-                  onMouseLeave={(e) => (e.currentTarget.style.color = 'var(--text-secondary)')}
-                >
-                  Heavyweight Hoodies & Knitwear
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Column 3: Company & Governance */}
+          {/* Column 2: Company & Governance */}
           <div>
             <h4 style={{
               fontFamily: 'var(--font-serif)',
